@@ -1,0 +1,72 @@
+hr {
+		position: relative;
+		display: block;
+		border: 0;
+		height: 6px;
+		border-top: solid 1px #A6A6A6;
+		border-bottom: solid 1px #A6A6A6;
+	}
+
+		hr:before, hr:after {
+			content: '';
+			position: absolute;
+			display: block;
+			width: 1px;
+			height: 21px;
+			background: #A6A6A6;
+		}
+
+		hr:before {
+			left: -1px;
+		}
+
+		hr:after {
+			right: -1px;
+		}
+	.social li {
+		
+		transition: all 0.5s ease 0s;
+		-moz-transition: all 0.5s ease 0s;
+		-webkit-transition: all 0.5s ease 0s;
+		-ms-transition: all 0.5s ease 0s;
+		-o-transition: all 0.5s ease 0s;
+	}
+	.social li:hover {
+		transform: scale(1.15) rotate(360deg);
+		-webkit-transform: scale(1.1) rotate(360deg);
+		-moz-transform: scale(1.1) rotate(360deg);
+		-ms-transform: scale(1.1) rotate(360deg);
+		-o-transform: scale(1.1) rotate(360deg);
+	}
+	.social li a i.tw:hover {
+		color: #4682B4;
+	}
+	.social li a i.tw:hover{
+	color: #4682B4;
+	}
+	.social li a i.tw before:hover{
+	color: #4682B4;
+	}
+	.social li a i.fb:hover {
+		color: #3B5998;
+	}
+	.social li a i.fb:hover{
+	color: #3B5998;
+	}
+	.social li a i.fb before:hover{
+	color: #3B5998;
+	}
+	footer a {
+		color: #9aa4af;
+		font-weight: 700;
+	}
+	footer a:hover {
+		color: #A9A9A9;
+	}
+	footer a:hover{
+	color: #A9A9A9;
+	}
+	footer a before:hover{
+	color: #A9A9A9;
+	}
+	
